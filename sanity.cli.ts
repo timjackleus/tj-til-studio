@@ -3,7 +3,7 @@ import {defineCliConfig} from 'sanity/cli'
 export default defineCliConfig({
   api: {
     projectId: 'ey0l0ez5',
-    dataset: 'production',
+    dataset: 'sandbox',
   },
   project: {
     basePath: '/studio',

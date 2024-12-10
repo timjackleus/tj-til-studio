@@ -9,7 +9,7 @@ export default defineConfig({
   title: 'tj-til',
 
   projectId: 'ey0l0ez5',
-  dataset: 'production',
+  dataset: 'sandbox',
 
   plugins: [structureTool(), visionTool(), codeInput()],
 

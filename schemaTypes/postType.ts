@@ -24,6 +24,7 @@ export const postType = defineType({
           {title: 'Javascript', value: 'javascript'},
           {title: 'HTML', value: 'html'},
           {title: 'CSS', value: 'css'},
+          {title: 'Lua', value: 'lua'},
         ],
         withFilename: true,
       },

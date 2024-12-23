@@ -9,7 +9,7 @@ export default defineConfig({
   title: 'tj-til',
 
   projectId: 'ey0l0ez5',
-  dataset: 'sandbox',
+  dataset: process.env.SANITY_STUDIO_DATASET || 'production',
 
   plugins: [structureTool(), visionTool(), codeInput()],
 
